@@ -23,12 +23,12 @@ cd MyoActivator
 git submodule update --init
 ```
 
-The next step is to download `libactivator`
+The next step is to download the dependencies:
 ``` sh
 ./get_libraries.sh
 ```
 
-To build the project, you need only run
+To build the project, you need only run:
 
 ```
 make MYO_FRAMEWORK_PATH=/path/to/MyoKit.embeddedframework
