@@ -67,6 +67,8 @@
             return MAEventNameWaveIn;
         case 3:
             return MAEventNameWaveOut;
+        case 4:
+            return MAEventNameTwistIn;
         default:
             return nil;
     }
@@ -75,7 +77,7 @@
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 4;
+    return 5;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {

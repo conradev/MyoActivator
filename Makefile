@@ -1,4 +1,4 @@
-TARGET = iphone:clang:latest:5.0
+TARGET = iphone:clang:latest:6.0
 ARCHS = armv7 armv7s
 APPLICATION_NAME = MyoActivator
 MYO_FRAMEWORK_PATH := MyoKit.embeddedframework

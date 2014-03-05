@@ -15,6 +15,7 @@ NSString * const MAEventNameCloseFist = @"com.conradkramer.myoactivator.close-fi
 NSString * const MAEventNameSpreadFingers = @"com.conradkramer.myoactivator.spread-fingers";
 NSString * const MAEventNameWaveIn = @"com.conradkramer.myoactivator.wave-in";
 NSString * const MAEventNameWaveOut = @"com.conradkramer.myoactivator.wave-out";
+NSString * const MAEventNameTwistIn = @"com.conradkramer.myoactivator.twist-in";
 
 @interface MyoActivatorAppDelegate ()
 
@@ -60,6 +61,9 @@ NSString * const MAEventNameWaveOut = @"com.conradkramer.myoactivator.wave-out";
             break;
         case TLMPoseTypeWaveOut:
             eventName = MAEventNameWaveOut;
+            break;
+        case TLMPoseTypeTwistIn:
+            eventName = MAEventNameTwistIn;
             break;
         case TLMPoseTypeNone:
        		eventName = nil;
